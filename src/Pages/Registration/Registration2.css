@@ -1,0 +1,111 @@
+/* Registration2.css */
+
+.reg2 {
+  background-image: url("./pexels-viktor-lundberg-754595.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.registration-form2 {
+  width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Optional: Add a background color */
+  background-color: #695acd66;
+}
+
+.registration-header2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-label2 {
+  margin-bottom: 15px;
+  display: block; /* Ensures each label is on a new line */
+  color: white;
+}
+
+.electric-checkbox,
+.electricity-input,
+.mileage-input,
+.number-of-doors-input,
+.number-of-seats-input,
+.vin_number,
+.register-button2 {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+  display: block; /* Ensures each input is on a new line */
+  background-color: #ee82eea6;
+}
+
+.body-type-select,
+.transmission-type-select,
+.body-type-select,
+.fuel-type-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+  display: block; /* Ensures each input is on a new line */
+  background-color: #7d0e7da6;
+  color: white;
+}
+
+.electric-checkbox {
+  margin-left: 5px;
+}
+
+.register-button2 {
+  padding: 10px;
+  font-size: 16px;
+  width: 30%;
+  cursor: pointer;
+  background-color: #ff99c9;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: auto; /* Center the button */
+  display: block; /* Ensure button is on a new line */
+}
+
+.register-button2:hover {
+  background-color: white; /* Darker green on hover */
+  transform: scale(0.9);
+  border: 2px solid #ff99c9;
+  border-radius: 3px;
+  color: #ff99c9;
+}
+
+.register-button2:active {
+    transform: scale(1.1);
+}
+
+/* Modal.css */
+
+.contra_modal {
+  display: block; /* or flex, depending on your modal implementation */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contra_modal-content {
+  background: #fff;
+  width: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

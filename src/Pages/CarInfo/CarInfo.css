@@ -1,0 +1,60 @@
+/* General page styling */
+.carInfoPage {
+  background-color: #fff; /* White background for better contrast */
+  color: #333;
+  font-family: sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./3546.jpg");
+  background-size: cover;
+}
+
+/* Loading and error messages */
+.carInfoPage div {
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing between messages */
+}
+
+/* Headings (adjust as needed) */
+.carInfoPage h1,
+.carInfoPage h2,
+.carInfoPage h3 {
+  color: #222; /* Slightly darker headings */
+  margin-bottom: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Button styles */
+.carInfoPage button {
+  background-color: #cc9966; /* Base color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carInfoPage button:hover {
+  background-color: #fff4c2; /* Hover color */
+  border: 1px solid #cc9966; /* Optional border on hover */
+  color: #cc9966; /* Text color on hover */
+}
+
+.carInfoPage button:active {
+  transform: scale(1.1);
+}

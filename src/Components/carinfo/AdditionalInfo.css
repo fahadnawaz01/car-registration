@@ -1,0 +1,36 @@
+/* AdditionalInfoCard styling */
+.AdditionalInfoCard {
+  width: 100%; /* Stretch to full width */
+  max-width: 1200px; /* Adjust as needed for responsiveness */
+  margin: 0 auto; /* Center horizontally */
+  background-color: #f9f9f9c2; /* Sea green background */
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  color: #131010; /* White text for good contrast */
+  padding: 10px;
+}
+
+/* Grid item styling */
+.AdditionalInfoCard .MuiGrid-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Add subtle separator */
+  padding: 10px 0; /* Add vertical padding */
+}
+
+/* Last grid item styling (optional) */
+.AdditionalInfoCard .MuiGrid-item:last-child {
+  border-bottom: none; /* Remove separator for the last item */
+}
+
+/* Label styling */
+.AdditionalInfoCard .MuiTypography-subtitle1 {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* Value styling */
+.AdditionalInfoCard .MuiGrid-item > .MuiTypography-body1 {
+  color: #534343; /* Adjust as needed for desired contrast */
+}

@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px; /* Rounded corners */
+  background: #ff10f0; /* Green */
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #c1bddb; /* Darker green on hover */
+  transform: scale(0.95);
+  color: white;
+}
+
+.button:active {
+  transform: scale(1.1);
+}
+.button:disabled {
+  background-color: #a0a0a0; /* Gray on disabled */
+  cursor: not-allowed;
+}

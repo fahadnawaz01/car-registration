@@ -1,0 +1,21 @@
+.update-additional-info-button {
+  position: fixed; /* Position the button fixedly */
+  right: 20px; /* Set right margin for positioning */
+  bottom: 20px; /* Set bottom margin for positioning */
+  background-color: #ff99c9;
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.update-additional-info-button:hover {
+  background-color: white; /* Hover color */
+  border: 1px solid #ff99c9; /* Optional border on hover */
+  color: #ff99c9; /* Text color on hover */
+}

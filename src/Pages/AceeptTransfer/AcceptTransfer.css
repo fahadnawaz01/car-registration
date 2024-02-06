@@ -1,0 +1,78 @@
+.accept-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-size: cover;
+  background-image: linear-gradient(to right bottom, #ff5833a4, #e1af9cc7),
+    url("./dan-gold-Q_2p94h8rjI-unsplash.jpg");
+}
+
+.animated-box1 {
+  height: 230px;
+  width: 500px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #ffbcdac6;
+  animation: expand 0.7s ease-in-out;
+  display: flex; /* Make the box a flex container */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 2px;
+}
+
+@keyframes expand {
+  from {
+    transform: scale(5); /* Start at 80% size */
+  }
+  to {
+    transform: scale(1); /* End at full size */
+  }
+}
+
+.animated-text1 {
+  color: white;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+input {
+  padding: 10px;
+  width: 400px;
+  background-color: #ffa187;
+  border: 1px solid #c45d41;
+  border-radius: 3px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: #ff99c9;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: white; /* Darker green on hover */
+  transform: scale(0.9);
+  border: 2px solid #ff99c9;
+  border-radius: 3px;
+  color: #ff99c9;
+}
+button:active {
+  transform: scale(1.1);
+}

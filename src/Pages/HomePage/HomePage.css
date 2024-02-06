@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make it full-screen */
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-image: linear-gradient(to right bottom, #ff99c99d, #c1bddbbd),
+    url("./oli-woodman-fwYZ3B_QQco-unsplash.jpg");
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Vertically stack buttons */
+  gap: 15px; /* Add spacing between buttons */
+}

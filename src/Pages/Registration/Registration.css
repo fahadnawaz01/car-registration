@@ -1,0 +1,85 @@
+/* General form styles */
+.reg {
+  background-image: url("./pexels-viktor-lundberg-754595.jpg");
+  background-size: cover;
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+}
+.registration-form {
+  width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 5px;
+  background-color: #695acd66;
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Distribute space between elements */
+  border-radius: 10px;
+}
+
+.registration-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input fields and textarea */
+.owner-name-input,
+.owner-birthdate-input,
+.car-number-input,
+.car-model-input,
+.car-color-input,
+.registration-date-input,
+.insurance-details-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ee82eea6;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 100px; /* Adjust as needed */
+}
+
+/* Button styles */
+.register-button {
+  background-color: #ff99c9;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto; /* Push to the right edge */
+}
+
+.register-button:hover {
+  background-color: white; /* Darker green on hover */
+  transform: scale(0.9);
+  border: 2px solid #ff99c9;
+  border-radius: 3px;
+  color: #ff99c9;
+}
+
+.register-button:active {
+  transform: scale(1.1);
+}
+/* Additional styling for specific elements (optional) */
+.insurance-details-label {
+  /* Styles for insurance details label */
+}
+
+.insurance-details-textarea {
+  /* Styles for insurance details textarea */
+}
